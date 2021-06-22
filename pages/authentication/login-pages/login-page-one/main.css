@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+.login-form-box {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-form-box > div {
+    align-self: center;
+    padding: 2rem;
+    width: 350px;
+    background-color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: all 300ms ease-in;
+}
+
+.login-form-box > div:hover {
+    background-color: white;
+    transform: scale(1.02);
+}
+
+.login-form-box > div h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form div {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+}
+
+.login-form div label {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.login-form div input {
+    padding: 0.5rem 0.2rem;
+}
+
+.login-form div input:focus {
+    outline: none;
+}
